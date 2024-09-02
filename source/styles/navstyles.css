@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma');
+
+
+body {
+    font-family: Michroma,serif;
+    background: linear-gradient(90deg, #161dd4 0%, #3e3838 100%);
+}
+
+p {
+    color: aquamarine;
+}
+.nav-link{
+    color:aquamarine;
+}
+.img-navbar {
+    height: 25px;
+
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(214, 222, 220);
+}
+
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler{
+    background-color:rgb(214, 222, 220);
+}
+
+.sidebar {
+    color:aquamarine;
+    background: linear-gradient(270deg, #161dd4 0%, #3e3838 100%);
+
+}
+
+.card {
+    background: linear-gradient(270deg, #161dd4 0%, #3e3838 100%);
+color: aquamarine;
+}
+
+.col-lg-12  {
+    border-radius: 5px;
+}
+
+.col-lg-6 img {
+    border-radius: 5px;
+}
+
+.col-md-6,
+.footer-text {
+    margin: auto auto;
+}
+
+.col-md-6 p,
+.footer-text {
+    color: aquamarine;
+   
+}
+
+@media (max-width:755px){
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(0deg, #111112 0%, #eddede 100%);
+
+
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.footer-img img {
+    height: 50px;
+    padding-inline: 15px;
+    
+}
+
+.call {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
